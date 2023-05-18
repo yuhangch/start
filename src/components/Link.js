@@ -32,13 +32,13 @@ const Link = ({ linkData, filter, selection }) => {
 			<a
 				className={`ml-2 leading-2 my-1 ${isHidden && "opacity-20"} ${
 					isSelected ? "selected" : ""
-				} inline-block px-1 rounded-selection`}
+				} inline-block px-4 rounded-selection`}
 				href={url}
 				rel="noopener noreferrer nofollow"
 				target={target}>
-				<span className="inline-block w-4 h-4 align-middle">
-					<Icon icon={icon} />
-				</span>
+				{/*<span className="inline-block w-4 h-4 align-middle">*/}
+				{/*	<Icon icon={icon} />*/}
+				{/*</span>*/}
 				<span className="inline-block pl-2 font-light leading-8 align-middle">{name}</span>
 			</a>
 		</li>

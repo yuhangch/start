@@ -1,5 +1,5 @@
 const defaultConfig = {
-	username: "Excalith",
+	username: "",
 	theme: {
 		backgroundColor: "#121317",
 		windowColor: "#1e212b",
@@ -106,29 +106,73 @@ const defaultConfig = {
 	sections: {
 		list: [
 			{
-				title: "General",
+				title: "Read",
 				color: "green",
 				align: "left",
 				links: [
 					{
-						name: "Portfolio",
-						url: "https://cancellek.com",
-						icon: "mdi:web"
-					},
-					{
-						name: "Keybase",
-						url: "https://keybase.io/",
+						name: "Bookmarks",
+						url: "https://link.yuhang.ch/",
 						icon: "fa-brands:keybase"
 					},
 					{
-						name: "GPT",
-						url: "https://chat.openai.com/",
+						name: "Miniflux",
+						url: "https://hub.yuhang.ch/",
 						icon: "simple-icons:openai"
+					}
+				]
+			},
+			{
+				title: "Dashboard",
+				color: "cyan",
+				align: "left",
+				links: [
+					{
+						name: "ESXi",
+						url: "https://esxi",
+						icon: "uil:polygon"
 					},
 					{
-						name: "OCI",
-						url: "https://www.oracle.com/cloud/",
-						icon: "simple-icons:oracle"
+						name: "OpenWRT",
+						url: "https://openwrt",
+						icon: "mdi:currency-sign"
+					},
+					{
+						name: "Portainer",
+						url: "https://dash.yuhang.ch/",
+						icon: "ph:toilet-paper-bold"
+					},
+					{
+						name: "Cloudflare",
+						url: "https://dash.cloudflare.com/",
+						icon: "tabler:hand-rock"
+					}
+				]
+			},
+			{
+				title: "NAS",
+				color: "blue",
+				align: "left",
+				links: [
+					{
+						name: "NASTool",
+						url: "http://nas:3000/",
+						icon: "simple-icons:nasa"
+					},
+					{
+						name: "qBittorrent",
+						url: "http://nas:8087/",
+						icon: "mdi:reddit"
+					},
+					{
+						name: "Jellyfin",
+						url: "http://nas:8096/",
+						icon: "mdi:black-mesa"
+					},
+					{
+						name: "ZSpace",
+						url: "http://nas:5055/",
+						icon: "material-symbols:science"
 					}
 				]
 			},
@@ -165,78 +209,24 @@ const defaultConfig = {
 				align: "left",
 				links: [
 					{
+						name: "V2EX",
+						url: "https://v2ex.com",
+						icon: "simple-icons:polywork"
+					},
+					{
 						name: "Twitter",
 						url: "https://twitter.com",
 						icon: "mdi:twitter"
 					},
 					{
-						name: "Mastodon",
-						url: "https://mastodon.social/",
+						name: "cnblogs",
+						url: "https://cnblogs.com/",
 						icon: "ri:mastodon-fill"
 					},
 					{
 						name: "Reddit",
 						url: "https://reddit.com",
 						icon: "mdi:reddit"
-					},
-					{
-						name: "Polywork",
-						url: "https://polywork.com",
-						icon: "simple-icons:polywork"
-					}
-				]
-			},
-			{
-				title: "Gaming",
-				color: "cyan",
-				align: "left",
-				links: [
-					{
-						name: "Polygon",
-						url: "https://polygon.com",
-						icon: "uil:polygon"
-					},
-					{
-						name: "IGN",
-						url: "https://ign.com",
-						icon: "mdi:currency-sign"
-					},
-					{
-						name: "RPS",
-						url: "https://rockpapershotgun.com/",
-						icon: "ph:toilet-paper-bold"
-					},
-					{
-						name: "80lv",
-						url: "https://80.lv/",
-						icon: "tabler:hand-rock"
-					}
-				]
-			},
-			{
-				title: "Science",
-				color: "blue",
-				align: "left",
-				links: [
-					{
-						name: "PopSci",
-						url: "https://popsci.com/",
-						icon: "material-symbols:science"
-					},
-					{
-						name: "Space",
-						url: "fa6-solid:user-astronaut",
-						icon: "mdi:reddit"
-					},
-					{
-						name: "NASA",
-						url: "https://blogs.nasa.gov/",
-						icon: "simple-icons:nasa"
-					},
-					{
-						name: "ESA",
-						url: "https://blogs.esa.int/",
-						icon: "mdi:black-mesa"
 					}
 				]
 			},
